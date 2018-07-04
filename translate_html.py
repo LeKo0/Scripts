@@ -1,7 +1,6 @@
 from google.cloud import translate
 import re
 import sys
-import click
 
 def main():
 
