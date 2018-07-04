@@ -1,6 +1,7 @@
 from google.cloud import translate
 import re
 import sys
+import click
 
 def main():
 
@@ -9,7 +10,7 @@ def main():
     # Retrieving the text to translate
 
     try:
-        input = sys.argv[1:]
+        input = ''.join(sys.argv[1:])
     except Exception as e:
         print("Missing query")
         sys.exit()
