@@ -15,7 +15,7 @@ def main():
     else:
 
         # Google API token
-        TOKEN = "AIzaSyCjjwskERgD8UOy0TKsspJyuposJCHz_fs"
+        TOKEN = "-----"
         # Coordinate of central search point
         LONG, LAT = 45.545042,-73.676466
         # Radius of search area (max 50000)
