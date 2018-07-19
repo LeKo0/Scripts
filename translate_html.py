@@ -12,7 +12,7 @@ def main():
         input = ''.join(sys.argv[1:])
     except Exception as e:
         print("Missing query")
-        sys.exit()
+        sys.exit(0)
 
 
     # The target language
